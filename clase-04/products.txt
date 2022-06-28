@@ -1,43 +1,14 @@
 [
-	{
-		"title": "ESTEREO",
-		"price": 30000,
-		"thumbnail": "stereo.jpg",
-		"id": 1
-	}
-][
-	{
-		"title": "TABLET",
-		"price": 40000,
-		"thumbnail": "tablet.jpg",
-		"id": 3
-	}
-][
-	{
-		"title": "ESTEREO",
-		"price": 30000,
-		"thumbnail": "stereo.jpg",
-		"id": 2
-	}
-][
-	{
-		"title": "ESTEREO",
-		"price": 30000,
-		"thumbnail": "stereo.jpg",
-		"id": 2
-	}
-][
-	{
-		"title": "TABLET",
-		"price": 40000,
-		"thumbnail": "tablet.jpg",
-		"id": 3
-	}
-][
-	{
-		"title": "ESTEREO",
-		"price": 30000,
-		"thumbnail": "stereo.jpg",
-		"id": 1
-	}
+  {
+    "title": "ESTEREO",
+    "price": 30000,
+    "thumbnail": "stereo.jpg",
+    "id": 1
+  },
+  {
+    "title": "ESTEREO",
+    "price": 30000,
+    "thumbnail": "stereo.jpg",
+    "id": 4
+  }
 ]
