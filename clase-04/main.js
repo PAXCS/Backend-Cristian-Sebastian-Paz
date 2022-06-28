@@ -1,6 +1,5 @@
 const {promises:fs} = require('fs');
 
-
 class Contenedor {
     constructor(product) {
         this.product = product;
