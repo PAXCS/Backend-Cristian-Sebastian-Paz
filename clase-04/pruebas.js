@@ -1,4 +1,4 @@
-const fs = require('fs');
+/* const fs = require('fs');
 const express = require('express')
 const app = express()
 const {json} = require('stream/consumers');
@@ -72,10 +72,10 @@ class Contenedor {
     };
 };
 
-const productos = new Contenedor("products.txt");
+const productos = new Contenedor("products.txt"); */
 
 //Prueba de métodos
-
+/* 
  productos.save(
     {
         "title": "ESTEREO",
@@ -96,8 +96,16 @@ productos.save(
         "price": 30000,
         "thumbnail": "stereo.jpg"
     }); 
-
+ */
 //productos.getAll() 
 //productos.getById(3)
 //productos.deleteById(2)
 //productos.deleteAll();
+
+/* const products = productos.getAll()
+    const productoRandom = products [Math.floor(Math.random() *products.length)];
+    console.log(productoRandom);
+
+    const products = ["juan","marcos","elisa","estela","miguel"]//productos.getAll()
+    const productoRandom = products [Math.floor(Math.random() *products.length)];
+    console.log(productoRandom); */

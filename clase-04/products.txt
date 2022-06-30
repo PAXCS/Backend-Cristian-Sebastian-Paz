@@ -6,9 +6,15 @@
     "id": 1
   },
   {
-    "title": "ESTEREO",
-    "price": 30000,
-    "thumbnail": "stereo.jpg",
-    "id": 4
+    "title": "TV",
+    "price": 120000,
+    "thumbnail": "tv.jpg",
+    "id": 2
+  },
+  {
+    "title": "PC",
+    "price": 180000,
+    "thumbnail": "pc.jpg",
+    "id": 3
   }
 ]

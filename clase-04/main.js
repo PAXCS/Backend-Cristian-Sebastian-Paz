@@ -8,7 +8,9 @@ class Contenedor {
     async getAll() {
         try {
             const objs = await fs.readFile(this.product, 'utf-8')
-            return JSON.parse(objs);  
+            console.log(objs); 
+            return JSON.parse(objs);
+            
         } catch (err) {
             console.log('error');
             return[]
@@ -66,13 +68,35 @@ class Contenedor {
 
 const productos = new Contenedor("products.txt");
 
- /*   productos.save(
+   /*  productos.save(
     {
         "title": "ESTEREO",
         "price": 30000,
         "thumbnail": "stereo.jpg"
-    }); 
-  */
+    }); */
+ 
+ /*   productos.save(
+    {
+        "title": "TV",
+        "price": 120000,
+        "thumbnail": "tv.jpg"
+    }); */
+
+  /*  productos.save(
+    {
+        "title": "PC",
+        "price": 180000,
+        "thumbnail": "pc.jpg"
+    });  */
+  
 //productos.deleteAll();
 //productos.deleteById(2);
-productos.getById(1);
+//productos.getById(2);
+
+//productos.getAll();
+
+/*  const products = productos.getAll()
+    const productoRandom = products [Math.floor(Math.random() *products.length)];
+    console.log(productoRandom);  */
+
+module.exports = Contenedor;
