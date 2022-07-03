@@ -66,7 +66,7 @@ class Contenedor {
 };
 
 
-const productos = new Contenedor("products.txt");
+//const productos = new Contenedor("products.txt");
 
    /*  productos.save(
     {
