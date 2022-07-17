@@ -17,8 +17,8 @@ app.get('/producto', async (req, res) => {
     res.send(productoRandom);
 }) 
 
-  app.listen(port, () => {
+   app.listen(port, () => {
     console.log("Tu servidor esta corriendo en el puerto: " + port);
-}) 
+})  
 
 app.on("error", error => console.log("El error es: " + error)); 
